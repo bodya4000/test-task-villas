@@ -70,8 +70,9 @@ export default function VillaDetail() {
           </View>
           <VillaDetailSpecs villa={villa} />
           <VillaDetailPriceCard dailyRent={villa.dailyRent} />
-          <VillaDetailOtherList villas={villas} currentVillaId={villa.id} />
         </View>
+
+        <VillaDetailOtherList villas={villas} currentVillaId={villa.id} />
       </ScrollView>
       <BookButton bottomInset={insets.bottom} />
     </>

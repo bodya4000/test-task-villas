@@ -23,8 +23,7 @@ export function VillaDetailOtherList({ villas, currentVillaId }: VillaDetailOthe
         keyExtractor={(item) => String(item.id)}
         horizontal
         showsHorizontalScrollIndicator={false}
-        contentContainerStyle={styles.list}
-        snapToInterval={VILLA_PREVIEW_CARD_WIDTH + spacing.md}
+        snapToInterval={VILLA_PREVIEW_CARD_WIDTH}
         snapToAlignment="start"
         decelerationRate="fast"
         nestedScrollEnabled
@@ -36,16 +35,16 @@ export function VillaDetailOtherList({ villas, currentVillaId }: VillaDetailOthe
 
 const styles = StyleSheet.create({
   section: {
-    marginTop: spacing.xl
+    marginTop: spacing.xl,
+    paddingBottom: 100
   },
   title: {
     fontSize: 22,
     fontWeight: '700',
     color: colors.text,
     marginBottom: spacing.md,
+    paddingLeft: spacing.md,
     letterSpacing: -0.5
   },
-  list: {
-    paddingRight: spacing.lg
-  }
+
 });

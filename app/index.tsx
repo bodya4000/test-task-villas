@@ -15,7 +15,7 @@ export default function VillaDashboard() {
   const { data: villasData, loading } = useVillas();
 
   return (
-    <View style={[styles.container, { paddingTop: insets.top, paddingBottom: insets.bottom + spacing.xl }]}>
+    <View style={[styles.container, { paddingTop: insets.top}]}>
       {loading ? (
         <VillaListSkeleton />
       ) : (
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.background,
-    padding: spacing.md
+    paddingHorizontal: spacing.md
   },
   row: {
     gap: CARD_GAP,
