@@ -65,4 +65,4 @@ yarn start
 
 ## App Preview
 
-[▶ **Watch app demo**](./assets/delivery/demo.mov) — click to open and play in GitHub
+[▶ **Watch app demo**](./assets/delivery/demo.mp4) — click to open and play in GitHub
