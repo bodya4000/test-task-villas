@@ -65,4 +65,7 @@ yarn start
 
 ## App Preview
 
-[▶ **Watch app demo**](./assets/delivery/demo.mp4) — click to open and play in GitHub
+
+https://github.com/user-attachments/assets/e9e207b1-e23f-4719-a952-c23e1d0575ec
+
+
